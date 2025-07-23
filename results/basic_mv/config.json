@@ -1,0 +1,32 @@
+{
+  "model": {
+    "model_name": "GBM_MV",
+    "T": 2.0,
+    "r": 0.06,
+    "ExT": 1.2,
+    "b": null,
+    "sigma": null,
+    "lamb": 0.05,
+    "mu": 0.0,
+    "s": 0.2,
+    "jumps": false
+  },
+  "network": {
+    "regularization": 0.0,
+    "neurons": [
+      20,
+      20
+    ],
+    "activation": "relu"
+  },
+  "training": {
+    "num_epochs": 20,
+    "learning_rate": 0.015
+  },
+  "trading": {
+    "curtage": 0.005,
+    "leverage_constraints": false,
+    "options_in_p": false,
+    "bankrupcy_constraint": false
+  }
+}
